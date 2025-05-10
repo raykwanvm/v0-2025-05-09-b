@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Earthy Palette */
+  .palette-earthy {
+    --background: 40 33% 98%;
+    --foreground: 40 10% 15%;
+
+    --card: 40 33% 98%;
+    --card-foreground: 40 10% 15%;
+
+    --popover: 40 33% 98%;
+    --popover-foreground: 40 10% 15%;
+
+    --primary: 120 15% 40%;
+    --primary-foreground: 120 15% 98%;
+
+    --secondary: 30 20% 70%;
+    --secondary-foreground: 30 10% 15%;
+
+    --muted: 40 20% 96%;
+    --muted-foreground: 40 10% 40%;
+
+    --accent: 30 30% 60%;
+    --accent-foreground: 30 10% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 40 10% 90%;
+    --input: 40 10% 90%;
+    --ring: 120 15% 40%;
+
+    --radius: 0.5rem;
+  }
+
+  /* Pastel Palette */
+  .palette-pastel {
+    --background: 210 50% 98%;
+    --foreground: 210 20% 15%;
+
+    --card: 210 50% 98%;
+    --card-foreground: 210 20% 15%;
+
+    --popover: 210 50% 98%;
+    --popover-foreground: 210 20% 15%;
+
+    --primary: 180 40% 65%;
+    --primary-foreground: 180 20% 15%;
+
+    --secondary: 330 60% 85%;
+    --secondary-foreground: 330 20% 15%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 20% 40%;
+
+    --accent: 270 60% 85%;
+    --accent-foreground: 270 20% 15%;
+
+    --destructive: 0 70% 80%;
+    --destructive-foreground: 0 20% 15%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 180 40% 65%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 40 10% 10%;
+    --foreground: 40 10% 98%;
+
+    --card: 40 10% 12%;
+    --card-foreground: 40 10% 98%;
+
+    --popover: 40 10% 12%;
+    --popover-foreground: 40 10% 98%;
+
+    --primary: 120 15% 40%;
+    --primary-foreground: 120 15% 98%;
+
+    --secondary: 30 20% 30%;
+    --secondary-foreground: 30 10% 98%;
+
+    --muted: 40 10% 15%;
+    --muted-foreground: 40 10% 70%;
+
+    --accent: 30 30% 35%;
+    --accent-foreground: 30 10% 98%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 40 10% 20%;
+    --input: 40 10% 20%;
+    --ring: 120 15% 40%;
+  }
+}
+
+/* Default to earthy palette if no class is specified */
+:root {
+  --background: 40 33% 98%;
+  --foreground: 40 10% 15%;
+
+  --card: 40 33% 98%;
+  --card-foreground: 40 10% 15%;
+
+  --popover: 40 33% 98%;
+  --popover-foreground: 40 10% 15%;
+
+  --primary: 120 15% 40%;
+  --primary-foreground: 120 15% 98%;
+
+  --secondary: 30 20% 70%;
+  --secondary-foreground: 30 10% 15%;
+
+  --muted: 40 20% 96%;
+  --muted-foreground: 40 10% 40%;
+
+  --accent: 30 30% 60%;
+  --accent-foreground: 30 10% 15%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 40 10% 90%;
+  --input: 40 10% 90%;
+  --ring: 120 15% 40%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
