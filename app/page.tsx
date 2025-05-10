@@ -16,6 +16,7 @@ import WhyBuddhismWorks from "@/components/why-buddhism-works";
 import Hero2 from "@/components/hero2";
 import NewToMeditation from "@/components/new-to-meditation";
 import Header2 from "@/components/header2";
+import FooterOld from "./footer-old";
 
 export default function LandingPage() {
   return (
@@ -39,7 +40,8 @@ export default function LandingPage() {
         <FeatureSection />
         <ContentSectionImage />
       </main>
-      <Footer />
+      {/* <Footer /> */}
+      <FooterOld />
     </div>
   );
 }
