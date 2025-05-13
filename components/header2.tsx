@@ -70,7 +70,7 @@ export default function Header2() {
           </Link>
           {/* <ThemeSwitcher /> */}
           <Link
-            href="#faq"
+            href="/events"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Calendar
@@ -86,6 +86,12 @@ export default function Header2() {
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Get Involved
+          </Link>
+          <Link
+            href="/sample-components"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            Samples
           </Link>
         </nav>
 

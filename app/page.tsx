@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import Features from "@/components/features";
+import FeaturesV0Orig from "@/components/features-v0-orig";
 import EmailSignup from "@/components/email-signup";
 import Testimonials from "@/components/testimonials";
 import Pricing from "@/components/pricing";
@@ -20,28 +20,22 @@ import FooterOld from "./footer-old";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* <Header /> */}
-      <Header2 />
-      <main className="flex-1">
-        {/* <Hero /> */}
-        <Hero2 />
-        {/* <Features /> */}
-        {/* <FeaturesWithSquareImages /> */}
-        <WhyBuddhismWorks />
-        <NewToMeditation />
-        {/* <EmailSignup /> */}
-        {/* <Testimonials /> */}
-        {/* <Pricing /> */}
-        <FAQ />
-        <ContentSectionQuote />
-        {/* <Cta /> */}
-        <UpcomingEvents />
-        <FeatureSection />
-        <ContentSectionImage />
-      </main>
-      {/* <Footer /> */}
-      <FooterOld />
-    </div>
+    <>
+      {/* <Hero /> */}
+      <Hero2 />
+      {/* <Features /> */}
+      {/* <FeaturesWithSquareImages /> */}
+      <WhyBuddhismWorks />
+      <NewToMeditation />
+      {/* <EmailSignup /> */}
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
+      <FAQ />
+      <ContentSectionQuote />
+      {/* <Cta /> */}
+      <UpcomingEvents />
+      <FeatureSection />
+      <ContentSectionImage />
+    </>
   );
 }

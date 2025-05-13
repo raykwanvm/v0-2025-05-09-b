@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ChevronDown } from "lucide-react"
-import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button";
+import { ChevronDown } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   const scrollToFeatures = () => {
-    const featuresSection = document.getElementById("features")
+    const featuresSection = document.getElementById("features");
     if (featuresSection) {
-      featuresSection.scrollIntoView({ behavior: "smooth" })
+      featuresSection.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
@@ -19,10 +19,12 @@ export default function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            // backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/mountains1.jpg?height=1080&width=1920')",
           }}
         />
-        <div className="absolute inset-0 bg-sage-900/80" />
+        {/* <div className="absolute inset-0 bg-sage-900/80" /> */}
+        <div className="absolute inset-0 " />
       </div>
 
       {/* Content */}
@@ -85,5 +87,5 @@ export default function Hero() {
         <ChevronDown className="h-8 w-8 text-stone-100/70" />
       </motion.div>
     </section>
-  )
+  );
 }
