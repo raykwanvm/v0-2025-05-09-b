@@ -25,12 +25,12 @@ export function PersonaCarousel() {
     <section className="py-16 px-4 bg-slate-50">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
-          Meet Our Community
+          Carousel Component
         </h2>
-        <p className="text-lg text-center text-slate-600 max-w-3xl mx-auto mb-12">
+        {/* <p className="text-lg text-center text-slate-600 max-w-3xl mx-auto mb-12">
           Discover the diverse individuals who make up our mindfulness
           community. Each person brings their unique perspective and journey.
-        </p>
+        </p> */}
 
         <div className="relative">
           <Carousel

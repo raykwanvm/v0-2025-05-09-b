@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import FeaturesV0Orig from "@/components/features-v0-orig";
 import FeaturesGrid, { Feature } from "@/components/features-grid";
 import { BlockquotePrelineLarge } from "@/components/preline/blockquote";
+import { PersonaCarousel } from "./persona-carousel";
 
 export default function SampleComponets() {
   const features1: Feature[] = [
@@ -188,6 +189,7 @@ export default function SampleComponets() {
           </div>
         </div>
       </section>
+      <PersonaCarousel />
     </>
   );
 }
