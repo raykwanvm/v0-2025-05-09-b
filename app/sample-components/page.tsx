@@ -8,6 +8,7 @@ import { BlockquotePrelineLarge } from "@/components/preline/blockquote";
 import { PersonaCarousel } from "./persona-carousel";
 import { PersonaCarousel2 } from "@/components/persona-carousel";
 import { PERSONAS } from "./personas";
+import { PersonaCarouselAceternity } from "@/components/persona-carousel-aceternity";
 export default function SampleComponets() {
   const features1: Feature[] = [
     {
@@ -192,6 +193,7 @@ export default function SampleComponets() {
       </section>
       <PersonaCarousel />
       <PersonaCarousel2 personas={PERSONAS} />
+      <PersonaCarouselAceternity personas={PERSONAS} />
     </>
   );
 }
