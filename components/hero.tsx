@@ -53,7 +53,7 @@ export default function Hero() {
             and discover your original face.
           </motion.p>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
@@ -67,7 +67,7 @@ export default function Hero() {
               Explore
               <ChevronDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
             </Button>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
 
@@ -84,7 +84,10 @@ export default function Hero() {
           repeatDelay: 0.5,
         }}
       >
-        <ChevronDown className="h-8 w-8 text-stone-100/70" />
+        <ChevronDown
+          className="h-8 w-8 text-stone-100/70"
+          onClick={scrollToFeatures} // okay to place this on ChevronDown?
+        />
       </motion.div>
     </section>
   );

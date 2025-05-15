@@ -1,4 +1,4 @@
-import FeatureSection, { FeatureSection2 } from "./feature-section";
+import FeatureSection, { WelcomeSection } from "./feature-section";
 import HeroMountains from "./hero-mountains";
 import FeaturesWithSquareImages from "./features-with-square-images";
 import Hero from "@/components/hero";
@@ -70,7 +70,7 @@ export default function SampleComponets() {
         subHeader="3 ways we will benefit the sentient user. From the USER PERSPECTIVE, answer the following questions within 15 seconds: (1) What is DDMC? (2) Why should I care? How is this relevant to my life? (3) Why DDMC?"
       />
       {/* <FeaturesWithSquareImages /> */}
-      <FeatureSection2 />
+      <WelcomeSection />
       <FeaturesGrid
         features={features2}
         header="[Feature Section]"

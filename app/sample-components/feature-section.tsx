@@ -75,12 +75,12 @@ export default function FeatureSection() {
   );
 }
 
-export function FeatureSection2() {
+export function WelcomeSection() {
   const features = [
     {
       title: "Modern Zen",
       description:
-        "[Something about how our form of Chan is adaptable and relevant to modern life (to alleviate concerns that Zen/Chan is too conservative and traditional)]",
+        "[Something about how our form of Chan is adaptable and relevant to modern life (to address concerns that Zen/Chan/Buddhism is too conservative, traditional, or not practical)]",
     },
     {
       title: "Rooted in Tradition",
@@ -93,7 +93,7 @@ export function FeatureSection2() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      title: "Feature 4",
+      title: "Feature 4: Body practices? Spiritual Environmentalism?",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
