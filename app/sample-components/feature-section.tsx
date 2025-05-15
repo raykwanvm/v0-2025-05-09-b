@@ -88,12 +88,12 @@ export function WelcomeSection() {
         "[Something to signal tradition and authenticity. Inheritors of Caodong and Linji lineages through Master Sheng Yen? Maybe also mention Early Buddhism to address concerns that Mahayana is not 'real' Buddhism?]",
     },
     {
-      title: "Feature 3: Body practices?",
+      title: "Feature 3: Movement/Body Practices?",
       description:
-        "[We teach 'just sitting', but we don't just sit. Something about how we emphasize the importance of caring for our bodies through movement, 8-form, relaxation, self-massage, etc?]",
+        "[We teach 'just sitting', but we don't just sit. Something about how we emphasize the importance of self-care through movement and body practices: 8-form, relaxation, self-massage, etc?]",
     },
     {
-      title: "Feature 4: Body practices? Spiritual Environmentalism?",
+      title: "Feature 4: Spiritual Environmentalism?",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
