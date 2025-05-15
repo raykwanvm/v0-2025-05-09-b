@@ -17,7 +17,7 @@ export default function FooterOld() {
               />
               <div>
                 <h3 className="font-medium">Dharma Drum</h3>
-                <p className="font-medium text-gray-600">Meditation Center</p>
+                <p className="font-medium">Meditation Center</p>
               </div>
             </div>
             <p className="text-sm text-gray-600 mt-4">

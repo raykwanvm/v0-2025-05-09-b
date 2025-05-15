@@ -39,7 +39,8 @@ export default function Header2() {
       }`}
     >
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
+        {/* Desktop Logo */}
+        <div className="hidden md:flex items-center gap-2">
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/logo.svg"
@@ -52,6 +53,22 @@ export default function Header2() {
               Dharma Drum Meditation Center
             </span>
           </Link>
+        </div>
+        {/* <span className="hidden md:inline">Dharma Drum Meditation Center</span> */}
+
+        {/* Mobile Logo */}
+        <div className="md:hidden flex items-center gap-2">
+          <Image
+            src="/logo.svg"
+            alt="Dharma Drum Logo"
+            width={2}
+            height={24}
+            className="h-8 w-auto mr-2"
+          />
+          <div>
+            <h3 className="font-medium">Dharma Drum</h3>
+            <h3 className="font-medium">Meditation Center</h3>
+          </div>
         </div>
 
         {/* Desktop */}
