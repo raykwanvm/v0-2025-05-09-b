@@ -94,8 +94,7 @@ export function WelcomeSection() {
     },
     {
       title: "Feature 4: Spiritual Environmentalism?",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: `Condense and simplify these? "Benefit others and you benefit yourself." ... "Chan practitioners are clear and systematic in mind. Formlessness and the unity of the inner and outer world do not confuse them or make them fuzzy-minded. They can see the outer world selflessly and deal with it properly. A Chan practitioner with wisdom, without self-interest, can be truly objective when confronting people and situations. His or her judgment is good and his or her understanding is clear. He or she influences other people by making him or herself an example for them. That is practicing the Bodhisattva way." - Master Sheng Yen`,
     },
   ];
 
