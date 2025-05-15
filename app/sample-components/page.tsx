@@ -6,7 +6,8 @@ import FeaturesV0Orig from "@/components/features-v0-orig";
 import FeaturesGrid, { Feature } from "@/components/features-grid";
 import { BlockquotePrelineLarge } from "@/components/preline/blockquote";
 import { PersonaCarousel } from "./persona-carousel";
-
+import { PersonaCarousel2 } from "@/components/persona-carousel";
+import { PERSONAS } from "./personas";
 export default function SampleComponets() {
   const features1: Feature[] = [
     {
@@ -190,6 +191,7 @@ export default function SampleComponets() {
         </div>
       </section>
       <PersonaCarousel />
+      <PersonaCarousel2 personas={PERSONAS} />
     </>
   );
 }
