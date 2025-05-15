@@ -20,7 +20,7 @@ export default function Hero() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             // backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
-            backgroundImage: "url('/mountains1.jpg?height=1080&width=1920')",
+            backgroundImage: "url('/mountains1.webp?height=1080&width=1920')",
           }}
         />
         {/* <div className="absolute inset-0 bg-sage-900/80" /> */}

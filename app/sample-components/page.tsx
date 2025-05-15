@@ -13,21 +13,21 @@ export default function SampleComponets() {
       title: "Meditate [Sit]",
       description:
         "A free place for you to meditate in the heart of NYC. We offer morning and evening meditation sessions as well as monthly 1-day retreats.",
-      imageSrc: "/zarko/zendo.jpg",
+      imageSrc: "/zarko/zendo.webp",
       link: "/features/feature-1",
     },
     {
       title: "Learn",
       description:
         "Free classes and workshops for meditators of all levels. We teach a variety of meditation methods that are useful for modern life and modern minds. [maybe something about our diverse variety of methods: Silent Illumination, Huatou, walking, 8-form, Zhiyi anapanasati, etc, to emphasize how we are not one-size-fits-all and have something for everyone!].",
-      imageSrc: "/zarko/learn.jpg",
+      imageSrc: "/zarko/learn.webp",
       link: "/features/feature-2",
     },
     {
       title: "Connect",
       description:
         "[Something about how the community we will offer: welcoming and inclusive. Make spiritual seekers, atheists, and formerly religious people feel welcome.]",
-      imageSrc: "/zarko/community.jpg",
+      imageSrc: "/zarko/community.webp",
       link: "/features/feature-3",
     },
   ];
@@ -37,14 +37,14 @@ export default function SampleComponets() {
       title: "Feature 4",
       description:
         "Maybe something about how the DDM's Chan is both modern and deeply rooted in tradition -- adaptable to the needs of the modern world, adaptable to the needs of practitioners of differing dispositions/ability levels, religious backgrounds (make atheists feel welcome), etc.",
-      imageSrc: "/zarko/calming-mind-white.jpg",
+      imageSrc: "/zarko/calming-mind-white.webp",
       link: "/features/feature-4",
     },
     {
       title: "Feature 5",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      imageSrc: "/zarko/flower.jpg",
+      imageSrc: "/zarko/flower.webp",
       link: "/features/feature-5",
     },
     {
@@ -52,7 +52,7 @@ export default function SampleComponets() {
       description:
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
         "[Maybe something about how the DDM's Chan is both modern and deeply rooted in tradition? Adaptable. Inclusive. Useful.",
-      imageSrc: "/zarko/mahakasyapa.jpg",
+      imageSrc: "/zarko/mahakasyapa.webp",
       link: "/features/feature-6",
     },
   ];
