@@ -85,12 +85,12 @@ export function WelcomeSection() {
     {
       title: "Rooted in Tradition",
       description:
-        "[Something to signal tradition and authenticity. Inheritors of Caodong and Linji lineages through Master Sheng Yen?]",
+        "[Something to signal tradition and authenticity. Inheritors of Caodong and Linji lineages through Master Sheng Yen? Maybe also mention Early Buddhism to address concerns that Mahayana is not 'real' Buddhism?]",
     },
     {
-      title: "Feature 3: Inclusive?",
+      title: "Feature 3: Body practices?",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "[We teach 'just sitting', but we don't just sit. Something about how we emphasize the importance of caring for our bodies through movement, 8-form, relaxation, self-massage, etc?]",
     },
     {
       title: "Feature 4: Body practices? Spiritual Environmentalism?",
