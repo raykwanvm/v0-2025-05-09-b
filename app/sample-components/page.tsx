@@ -191,8 +191,8 @@ export default function SampleComponets() {
           </div>
         </div>
       </section>
-      <PersonaCarousel />
-      <PersonaCarousel2 personas={PERSONAS} />
+      {/* <PersonaCarousel /> */}
+      {/* <PersonaCarousel2 personas={PERSONAS} /> */}
       <PersonaCarouselAceternity personas={PERSONAS} />
     </>
   );
