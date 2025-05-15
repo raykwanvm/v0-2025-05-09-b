@@ -7,41 +7,50 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import AnimatedSection from "./animated-section";
+import { ReactNode } from "react";
 
-export default function FAQ() {
-  const faqs = [
-    {
-      question: "Lorem ipsum dolor sit amet?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    },
-    {
-      question: "Duis aute irure dolor in reprehenderit?",
-      answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      question: "Ut enim ad minim veniam, quis nostrud?",
-      answer:
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    },
-    {
-      question: "Excepteur sint occaecat cupidatat non proident?",
-      answer:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    },
-    {
-      question: "Nemo enim ipsam voluptatem quia voluptas?",
-      answer:
-        "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
-    },
-    {
-      question: "Quis autem vel eum iure reprehenderit?",
-      answer:
-        "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos.",
-    },
-  ];
+export interface FAQItem {
+  question: string;
+  answer: string | ReactNode;
+}
 
+interface FAQProps {
+  faqs: FAQItem[];
+}
+
+export const SAMPLE_FAQS = [
+  {
+    question: "Lorem ipsum dolor sit amet?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+  },
+  {
+    question: "Duis aute irure dolor in reprehenderit?",
+    answer:
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  },
+  {
+    question: "Ut enim ad minim veniam, quis nostrud?",
+    answer:
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  },
+  {
+    question: "Excepteur sint occaecat cupidatat non proident?",
+    answer:
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+  },
+  {
+    question: "Nemo enim ipsam voluptatem quia voluptas?",
+    answer:
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+  },
+  {
+    question: "Quis autem vel eum iure reprehenderit?",
+    answer:
+      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos.",
+  },
+];
+export default function FAQ({ faqs }: FAQProps) {
   return (
     <section id="faq" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
@@ -76,7 +85,11 @@ export default function FAQ() {
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-muted-foreground pb-4">
-                    {faq.answer}
+                    {typeof faq.answer === "string" ? (
+                      <p>{faq.answer}</p>
+                    ) : (
+                      faq.answer
+                    )}
                   </AccordionContent>
                 </AccordionItem>
               </AnimatedSection>

@@ -74,6 +74,12 @@ export default function Header2() {
         {/* Desktop */}
         <nav className="hidden md:flex items-center gap-6">
           <Link
+            href="/personas"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            Personas
+          </Link>
+          <Link
             href="/sample-components"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
@@ -150,6 +156,13 @@ export default function Header2() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Samples
+              </Link>
+              <Link
+                href="/personas"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Personas
               </Link>
               <Link
                 href="https://lu.ma/ddmc"

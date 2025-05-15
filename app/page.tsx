@@ -4,7 +4,7 @@ import FeaturesV0Orig from "@/components/features-v0-orig";
 import EmailSignup from "@/components/email-signup";
 import Testimonials from "@/components/testimonials";
 import Pricing from "@/components/pricing";
-import FAQ from "@/components/faq";
+import FAQ, { SAMPLE_FAQS } from "@/components/faq";
 import Cta from "@/components/cta";
 import UpcomingEvents from "@/components/upcoming-events";
 import FeatureSection from "@/components/feature-section";
@@ -30,7 +30,7 @@ export default function LandingPage() {
       {/* <EmailSignup /> */}
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
-      <FAQ />
+      <FAQ faqs={SAMPLE_FAQS} />
       <ContentSectionQuote />
       {/* <Cta /> */}
       <UpcomingEvents />
