@@ -38,7 +38,7 @@ export default function SampleComponets() {
     {
       title: "Feature 4",
       description:
-        "Maybe something about how the DDM's Chan is both modern and deeply rooted in tradition -- adaptable to the needs of the modern world, adaptable to the needs of practitioners of differing dispositions/ability levels, religious backgrounds (make atheists feel welcome), etc.",
+        "[Maybe something about how the DDM's Chan is both modern and deeply rooted in tradition -- adaptable to the needs of the modern world, adaptable to the needs of practitioners of differing dispositions/ability levels, religious backgrounds (make atheists feel welcome), etc.]",
       imageSrc: "/zarko/calming-mind-white.webp",
       link: "/features/feature-4",
     },
@@ -66,8 +66,8 @@ export default function SampleComponets() {
       {/* Details List */}
       <FeaturesGrid
         features={features1}
-        header="Value Proposition"
-        subHeader="3-6 ways we will benefit the sentient user."
+        header="Value Proposition Section"
+        subHeader="3 ways we will benefit the sentient user. From the USER PERSPECTIVE, answer the following questions within 15 seconds: (1) What is DDMC? (2) Why should I care? How is this relevant to my life? (3) Why DDMC?"
       />
       {/* <FeaturesWithSquareImages /> */}
       <FeatureSection2 />

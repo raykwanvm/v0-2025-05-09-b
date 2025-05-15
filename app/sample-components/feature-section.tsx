@@ -106,27 +106,33 @@ export function FeatureSection2() {
           {/* Left side - Header */}
           <AnimatedSection className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-sage-800">
-              [Welcome Headline]
+              [Welcome Section]
             </h2>
             <p className="text-stone-700 max-w-md">
               [Short welcome message introducing DDMC]
               <ul>
-                <li>who we are</li>
-                <li>what we do</li>
-                <li>what sets us apart</li>
+                <li>- who we are</li>
+                <li>- what we do</li>
+                <li>- what sets us apart</li>
               </ul>
+            </p>
+            <p>
+              This section can also be used as a Value Proposition Section
+              (which should always appear immediately below the Hero). If the
+              content on the right is not needed for the value proposition, we
+              can swap it out for a carefully selected image.
             </p>
             <p className="text-stone-700 max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
-            <p className="text-stone-700 max-w-md">
+            {/* <p className="text-stone-700 max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum egestas felis tortor, ac pulvinar risus volutpat id.
               Vivamus sit amet turpis et enim vestibulum accumsan. Vivamus
               mollis lobortis ex, id porta lorem auctor non.
-            </p>
+            </p> */}
             {/* <Link
               href="/about-us"
               className="text-sage-700 hover:text-sage-900 font-medium mt-3"
