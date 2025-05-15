@@ -54,35 +54,35 @@ export default function Header2() {
           </Link>
         </div>
 
-        {/* Desktop Navigation */}
+        {/* Desktop */}
         <nav className="hidden md:flex items-center gap-6">
           <Link
-            href="#features"
+            href="/sample-components"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             About Us
           </Link>
           <Link
-            href="#testimonials"
+            href="/sample-components"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Programs
           </Link>
           {/* <ThemeSwitcher /> */}
           <Link
-            href="/events"
+            href="https://lu.ma/ddmc"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Calendar
           </Link>
           <Link
-            href="#"
+            href="/sample-components"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Resources
           </Link>
           <Link
-            href="#"
+            href="/sample-components"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Get Involved
@@ -121,35 +121,49 @@ export default function Header2() {
           >
             <div className="container py-4 flex flex-col gap-4">
               <Link
-                href="#features"
+                href="/"
                 className="text-sm font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Features
+                Home
               </Link>
               <Link
-                href="#testimonials"
+                href="/sample-components"
                 className="text-sm font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Testimonials
+                Samples
               </Link>
-              <div onClick={() => setIsMenuOpen(false)}>
+              <Link
+                href="https://lu.ma/ddmc"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Events
+              </Link>
+              <Link
+                href="/sample-components"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About us
+              </Link>
+              <Link
+                href="/sample-components"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Programs
+              </Link>
+              {/* <div onClick={() => setIsMenuOpen(false)}>
                 <ThemeSwitcher />
-              </div>
+              </div> */}
               <Link
-                href="#faq"
+                href="/sample-components"
                 className="text-sm font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 FAQ
-              </Link>
-              <Link
-                href="#"
-                className="text-sm font-medium transition-colors hover:text-primary"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blog
               </Link>
             </div>
           </motion.div>
