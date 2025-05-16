@@ -39,17 +39,20 @@ export const PersonaCarouselAceternity = ({
   }, [carouselApi]);
 
   return (
-    <section className="py-32">
+    <section
+      // className="py-16"
+      className="py-2"
+    >
       <div className="container mx-auto">
         <div className="mb-8 flex items-end justify-between md:mb-14 lg:mb-16">
           <div className="flex flex-col gap-4">
             <h2 className="text-3xl font-medium md:text-4xl lg:text-5xl">
               User Personas
             </h2>
-            <p className="max-w-lg text-muted-foreground">
+            {/* <p className="max-w-lg text-muted-foreground">
               Each represents a unique segment of our target audience, helping
               us understand their needs, goals, and challenges.
-            </p>
+            </p> */}
           </div>
           <div className="hidden shrink-0 gap-2 md:flex">
             <Button

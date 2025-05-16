@@ -1,5 +1,36 @@
 export const PERSONAS = [
   {
+    name: "Talia",
+    title: "The Discerning Newcomer",
+    age: 45,
+    occupation: "Investigative Journalist at a major NYC publication",
+    location: "West Village, NYC",
+    goals: [
+      "Find a spiritual or contemplative path that doesn’t require suspending her intelligence or skepticism",
+      "Learn something new that challenges her emotionally and intellectually — not just soothes her",
+      "Explore practices that could help her manage stress and anxiety without numbing critical awareness",
+    ],
+    painPoints: [
+      "She is exceptionally sharp, with a keen eye for manipulation, branding, and overpromising",
+      "Feels immediately turned off by websites or centers that present Buddhism or meditation in overly simplistic, feel-good language",
+      "Suspicious of anything that feels like a brand, trend, or lifestyle package",
+    ],
+    behaviors: [
+      "Reads widely: philosophy, neuroscience, and long-form journalism",
+      "Open to contemplative practices, but hasn’t found anything that feels authentic or intelligent",
+      "Relies on gut instinct when scanning websites — if it feels dumbed down, she’s out",
+    ],
+    needs: [
+      "A meditation space that treats people as intelligent, thinking adults — even newcomers",
+      "Teachers who use simple, no-nonsense language and are unafraid of hard questions or complexity",
+      "A place that doesn’t overpromise calm or happiness — but instead offers depth, rigor, and real practice",
+      "Language that respects doubt, inquiry, and critical thinking — not just comfort",
+    ],
+    quote:
+      "I'm trained to ask questions and read between the lines. My instinct is to avoid anything that feels cultish, over-marketed, or intellectually hollow.",
+    imgSrc: "/personas/p1.jpg",
+  },
+  {
     name: "Emma",
     title: "The Busy Professional",
     age: 33,
@@ -12,6 +43,7 @@ export const PERSONAS = [
     painPoints: [
       "Limited free time",
       "Overwhelmed by options in the wellness space",
+      "Cannot sit cross-legged and needs a chair",
     ],
     behaviors: [
       "Attends after-work classes at studios nearby",
@@ -43,7 +75,7 @@ export const PERSONAS = [
     needs: [
       "Science-backed meditation instruction",
       "Efficient, results-oriented sessions",
-      "Evening or early morning options",
+      "Evening, early morning, or lunch-hour options",
     ],
     quote: "Show me how this improves my life, and I’ll take it seriously.",
     imgSrc: "/personas/p2.jpg",
