@@ -109,6 +109,8 @@ export function HeroWaves() {
           style={{
             // backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
             backgroundImage: "url('/waves2.webp?height=1080&width=1920')",
+            // backgroundImage: "url('/waves5.webp?height=1080&width=1920')",
+            // backgroundImage: "url('/waves5-mobile.webp?height=1080&width=1920')",
           }}
         />
         {/* <div className="absolute inset-0 bg-sage-900/80" /> */}

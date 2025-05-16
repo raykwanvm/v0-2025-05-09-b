@@ -11,7 +11,7 @@ export const PERSONAS = [
       "Explore practices that could help her manage stress and anxiety without dulling the very edge that makes her good at what she does — her sharpness, skepticism, and capacity to see what others miss",
     ],
     painPoints: [
-      "She is exceptionally sharp and wonders whether a mind as active, analytical, and fast-moving as hers can ever truly be still — or whether meditation is only for people wired differently",
+      "She is exceptionally sharp and wonders whether a mind as active and analytical as hers can ever truly be still — or whether meditation is only for people wired differently",
       "Feels immediately turned off by websites that present meditation in overly simplistic, overpromising, feel-good language",
       "Suspicious of anything that feels like a brand, trend, or lifestyle package",
     ],
@@ -24,7 +24,7 @@ export const PERSONAS = [
       "A meditation space that treats people as intelligent, thinking adults — even newcomers",
       "Teachers who use simple, no-nonsense language and are unafraid of hard questions or complexity",
       "A place that doesn’t overpromise calm or happiness — but instead offers depth, rigor, and real practice",
-      "Language that respects doubt, inquiry, and critical thinking — not just comfort",
+      // "Language that respects doubt, inquiry, and critical thinking — not just comfort",
     ],
     quote:
       "I'm trained to ask questions and read between the lines. My instinct is to avoid anything that feels cultish, over-marketed, or intellectually hollow.",
