@@ -2,7 +2,7 @@ export const PERSONAS = [
   {
     name: "Talia",
     title: "The Discerning Newcomer",
-    age: 45,
+    age: 52,
     occupation: "Investigative Journalist at a major NYC publication",
     location: "West Village, NYC",
     goals: [
@@ -12,7 +12,7 @@ export const PERSONAS = [
     ],
     painPoints: [
       "She is exceptionally sharp, with a keen eye for manipulation, branding, and overpromising",
-      "Feels immediately turned off by websites or centers that present Buddhism or meditation in overly simplistic, feel-good language",
+      "Feels immediately turned off by websites that present meditation in overly simplistic, feel-good language",
       "Suspicious of anything that feels like a brand, trend, or lifestyle package",
     ],
     behaviors: [
