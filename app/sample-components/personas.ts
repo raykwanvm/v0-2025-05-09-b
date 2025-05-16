@@ -2,17 +2,17 @@ export const PERSONAS = [
   {
     name: "Talia",
     title: "The Discerning Newcomer",
-    age: 52,
+    age: 57,
     occupation: "Investigative Journalist at a major NYC publication",
     location: "West Village, NYC",
     goals: [
-      "Find a spiritual or contemplative path that doesn’t require suspending her intelligence or skepticism",
+      "Find a spiritual or contemplative path that doesn’t require suspending her intelligence",
       "Learn something new that challenges her emotionally and intellectually — not just soothes her",
-      "Explore practices that could help her manage stress and anxiety without numbing critical awareness",
+      "Explore practices that could help her manage stress and anxiety without dulling the very edge that makes her good at what she does — her sharpness, skepticism, and capacity to see what others miss",
     ],
     painPoints: [
-      "She is exceptionally sharp, with a keen eye for manipulation, branding, and overpromising",
-      "Feels immediately turned off by websites that present meditation in overly simplistic, feel-good language",
+      "She is exceptionally sharp and wonders whether a mind as active, analytical, and fast-moving as hers can ever truly be still — or whether meditation is only for people wired differently",
+      "Feels immediately turned off by websites that present meditation in overly simplistic, overpromising, feel-good language",
       "Suspicious of anything that feels like a brand, trend, or lifestyle package",
     ],
     behaviors: [
