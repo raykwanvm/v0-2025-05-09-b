@@ -74,10 +74,22 @@ export default function Header2() {
         {/* Desktop */}
         <nav className="hidden md:flex items-center gap-6">
           <Link
+            href="/faq"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            FAQ
+          </Link>
+          <Link
             href="/personas"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Personas
+          </Link>
+          <Link
+            href="/sample-components"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            Samples
           </Link>
           <Link
             href="/sample-components"
@@ -109,12 +121,6 @@ export default function Header2() {
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             Get Involved
-          </Link>
-          <Link
-            href="/sample-components"
-            className="text-sm font-medium transition-colors hover:text-primary"
-          >
-            Samples
           </Link>
         </nav>
 
@@ -158,6 +164,13 @@ export default function Header2() {
                 Samples
               </Link>
               <Link
+                href="/faq"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                FAQ
+              </Link>
+              <Link
                 href="/personas"
                 className="text-sm font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
@@ -188,13 +201,6 @@ export default function Header2() {
               {/* <div onClick={() => setIsMenuOpen(false)}>
                 <ThemeSwitcher />
               </div> */}
-              <Link
-                href="/sample-components"
-                className="text-sm font-medium transition-colors hover:text-primary"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                FAQ
-              </Link>
             </div>
           </motion.div>
         )}

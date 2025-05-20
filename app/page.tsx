@@ -4,7 +4,6 @@ import FeaturesV0Orig from "@/components/features-v0-orig";
 import EmailSignup from "@/components/email-signup";
 import Testimonials from "@/components/testimonials";
 import Pricing from "@/components/pricing";
-import FAQ, { SAMPLE_FAQS } from "@/components/faq";
 import Cta from "@/components/cta";
 import UpcomingEvents from "@/components/upcoming-events";
 import FeatureSection from "@/components/feature-section";
@@ -17,12 +16,14 @@ import Hero2 from "@/components/hero2";
 import NewToMeditation from "@/components/new-to-meditation";
 import Header2 from "@/components/header2";
 import FooterOld from "./footer-old";
-
+import FAQ2 from "@/components/faq2";
+import { VALUE_PROP_FAQS } from "./faq/page";
+import Hero3May20 from "@/components/hero3-may20";
 export default function LandingPage() {
   return (
     <>
       {/* <Hero /> */}
-      <Hero2 />
+      <Hero3May20 />
       {/* <Features /> */}
       {/* <FeaturesWithSquareImages /> */}
       <WhyBuddhismWorks />
@@ -30,7 +31,7 @@ export default function LandingPage() {
       {/* <EmailSignup /> */}
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
-      <FAQ faqs={SAMPLE_FAQS} />
+      <FAQ2 faqs={VALUE_PROP_FAQS} />
       <ContentSectionQuote />
       {/* <Cta /> */}
       <UpcomingEvents />
