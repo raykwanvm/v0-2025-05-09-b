@@ -1,5 +1,5 @@
 import FAQ2, { FAQItem } from "@/components/faq2";
-import { HeroWaves, HeroWavesResponsive } from "@/components/hero";
+import { HeroResponsive } from "@/components/hero4";
 import { PersonaCarouselAceternity } from "@/components/persona-carousel-aceternity";
 import { PERSONAS } from "../sample-components/personas";
 import {
@@ -323,7 +323,13 @@ export const VALUE_PROP_FAQS: FAQItem[] = [
 export default function FAQPage() {
   return (
     <>
-      <HeroWavesResponsive />
+      <HeroResponsive
+        backgroundImageDesktop="/waves5.webp"
+        backgroundImageMobile="/waves5-mobile.webp"
+        title="Value Proposition"
+        subtitle="Learn how to create a value proposition"
+        alt="value proposition image"
+      />
       <FAQ2 faqs={VALUE_PROP_FAQS} />
     </>
   );

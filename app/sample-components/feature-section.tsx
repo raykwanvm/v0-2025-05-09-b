@@ -76,25 +76,44 @@ export default function FeatureSection() {
 }
 
 export function WelcomeSection() {
+  // const features = [
+  //   {
+  //     title: "Modern Zen",
+  //     description:
+  //       "[Something about how our form of Chan is adaptable and relevant to modern life (to address concerns that Zen/Chan/Buddhism is too conservative, traditional, or not practical)]",
+  //   },
+  //   {
+  //     title: "Rooted in Tradition",
+  //     description:
+  //       "[Something to signal tradition and authenticity. Inheritors of Caodong and Linji lineages through Master Sheng Yen? Maybe also mention Early Buddhism to address concerns that Mahayana is not 'real' Buddhism?]",
+  //   },
+  //   {
+  //     title: "Feature 3: Movement/Body Practices?",
+  //     description:
+  //       "[We teach 'just sitting', but we don't just sit. Something about how we emphasize the importance of self-care through movement and body practices: 8-form, relaxation, self-massage, etc?]",
+  //   },
+  //   {
+  //     title: "Feature 4: Spiritual Environmentalism?",
+  //     description: `Condense and simplify these? "Benefit others and you benefit yourself." ... "Chan practitioners are clear and systematic in mind. Formlessness and the unity of the inner and outer world do not confuse them or make them fuzzy-minded. They can see the outer world selflessly and deal with it properly. A Chan practitioner with wisdom, without self-interest, can be truly objective when confronting people and situations. His or her judgment is good and his or her understanding is clear. He or she influences other people by making him or herself an example for them. That is practicing the Bodhisattva way." - Master Sheng Yen`,
+  //   },
+  // ];
   const features = [
     {
       title: "Modern Zen",
-      description:
-        "[Something about how our form of Chan is adaptable and relevant to modern life (to address concerns that Zen/Chan/Buddhism is too conservative, traditional, or not practical)]",
+      description: `[Something about how our form of Chan is adaptable and relevant to modern life (to address concerns that Zen/Chan/Buddhism is too conservative, traditional, or not practical). Inspiration: "Chinese Chan Buddhism is by nature inclusive and adaptive to the changing needs of people and society...universally relevant to our pluralistic modern society, cultures, and religious identities...]"`,
     },
     {
       title: "Rooted in Tradition",
-      description:
-        "[Something to signal tradition and authenticity. Inheritors of Caodong and Linji lineages through Master Sheng Yen? Maybe also mention Early Buddhism to address concerns that Mahayana is not 'real' Buddhism?]",
+      description: `[Something to signal tradition and authenticity. Caodong and Linji lineages. Why mention Early Buddhism? We offer Zen deeply rooted in Agamas -- not common and a major selling point to those looking for authenticity. Inspiration: "The Chan teaching of Dharma Drum Mountain is a blend of the Āgamas with the special teachings of traditional Chinese Chan, while accommodating the needs of modern times and environments. In this sense, the basic attitude of our tradition is open to changes, but in terms of concept and methods our foundation is squarely centered on traditional Chinese Chan."]`,
     },
     {
-      title: "Feature 3: Movement/Body Practices?",
+      title: "Show Up in Life",
       description:
-        "[We teach 'just sitting', but we don't just sit. Something about how we emphasize the importance of self-care through movement and body practices: 8-form, relaxation, self-massage, etc?]",
+        "[Practical tools meant to be used in the real world, not just on a mountain. Not an escape from your problems but tools to face, embrace, and deal with, and let go of your problems.]",
     },
     {
-      title: "Feature 4: Spiritual Environmentalism?",
-      description: `Condense and simplify these? "Benefit others and you benefit yourself." ... "Chan practitioners are clear and systematic in mind. Formlessness and the unity of the inner and outer world do not confuse them or make them fuzzy-minded. They can see the outer world selflessly and deal with it properly. A Chan practitioner with wisdom, without self-interest, can be truly objective when confronting people and situations. His or her judgment is good and his or her understanding is clear. He or she influences other people by making him or herself an example for them. That is practicing the Bodhisattva way." - Master Sheng Yen`,
+      title: "We teach just sitting, but we don't just sit",
+      description: `[mention diversity, breadth, and depth of what we have to offer]`,
     },
   ];
 
@@ -119,13 +138,15 @@ export function WelcomeSection() {
               This section can also be used as a Value Proposition Section
               (which should always appear immediately below the Hero). If the
               content on the right is not needed for the value proposition, we
-              can swap it out for a carefully selected image.
+              can swap it out for a carefully selected image. Some ideas: list
+              practices unique to DDM (direct contemplation, somatic practices
+              like slow prostrations, etc), Spiritual Environmentalism, etc)
             </p>
-            <p className="text-stone-700 max-w-md">
+            {/* <p className="text-stone-700 max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            </p>
+            </p> */}
             {/* <p className="text-stone-700 max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum egestas felis tortor, ac pulvinar risus volutpat id.

@@ -12,7 +12,7 @@ import { PersonaCarouselAceternity } from "@/components/persona-carousel-acetern
 export default function SampleComponets() {
   const features1: Feature[] = [
     {
-      title: "Meditate [Sit]",
+      title: "Meditate",
       description:
         "A free place for you to meditate in the heart of NYC. We offer morning and evening meditation sessions as well as monthly 1-day retreats.",
       imageSrc: "/zarko/zendo.webp",
@@ -21,7 +21,7 @@ export default function SampleComponets() {
     {
       title: "Learn",
       description:
-        "Free classes and workshops for meditators of all levels. We teach a variety of meditation methods that are useful for modern life and modern minds. [maybe something about our diverse variety of methods: Silent Illumination, Huatou, walking, 8-form, Zhiyi anapanasati, etc, to emphasize how we are not one-size-fits-all and have something for everyone!].",
+        "Free classes and workshops for meditators of all levels. We teach a variety of meditation methods that are useful for modern life and modern minds.",
       imageSrc: "/zarko/learn.webp",
       link: "/features/feature-2",
     },

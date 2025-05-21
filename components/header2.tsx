@@ -92,6 +92,12 @@ export default function Header2() {
             Samples
           </Link>
           <Link
+            href="/hero-images"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            Hero Images
+          </Link>
+          <Link
             href="/sample-components"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
@@ -169,6 +175,13 @@ export default function Header2() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 FAQ
+              </Link>
+              <Link
+                href="/hero-images"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Hero Images
               </Link>
               <Link
                 href="/personas"
