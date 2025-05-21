@@ -1,5 +1,6 @@
 import type React from "react";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/theme-context";
@@ -9,8 +10,8 @@ import FooterOld from "./footer-old";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "StreamLine - Find Stillness in Motion",
-  description: "Streamline your workflow, amplify your results.",
+  title: "Dharma Drum Meditation Center",
+  description: "...",
   generator: "v0.dev",
 };
 
@@ -30,6 +31,7 @@ export default function RootLayout({
             <FooterOld />
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
