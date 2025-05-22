@@ -98,7 +98,7 @@ export default function Header2() {
             Hero Images
           </Link>
           <Link
-            href="/sample-components"
+            href="/about-us"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
             About Us
@@ -198,7 +198,7 @@ export default function Header2() {
                 Events
               </Link>
               <Link
-                href="/sample-components"
+                href="/about-us"
                 className="text-sm font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >

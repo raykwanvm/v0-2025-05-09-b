@@ -21,14 +21,13 @@ export default function SampleComponets() {
     {
       title: "Learn",
       description:
-        "Free classes and workshops for meditators of all levels. We teach a variety of meditation methods that are useful for modern life and modern minds.",
+        "Free classes and workshops for meditators of all levels. We teach a variety of meditation methods practical for modern life and modern minds.",
       imageSrc: "/zarko/learn.webp",
       link: "/features/feature-2",
     },
     {
       title: "Connect",
-      description:
-        "[Something about how the community we will offer: welcoming and inclusive. Make spiritual seekers, atheists, and formerly religious people feel welcome.]",
+      description: `[Something about our community. Welcoming and inclusive. Make spiritual seekers, atheists, and formerly religious people feel welcome. Inspiration: "Don't say that, Ananda. Don't say that. Admirable friendship, admirable companionship, admirable camaraderie is actually the whole of the holy life. When a monk has admirable people as friends, companions, and comrades, he can be expected to develop and pursue the Noble Eightfold Path."]`,
       imageSrc: "/zarko/community.webp",
       link: "/features/feature-3",
     },
@@ -37,8 +36,7 @@ export default function SampleComponets() {
   const features2: Feature[] = [
     {
       title: "Feature 4",
-      description:
-        "[Maybe something about how the DDM's Chan is both modern and deeply rooted in tradition -- adaptable to the needs of the modern world, adaptable to the needs of practitioners of differing dispositions/ability levels, religious backgrounds (make atheists feel welcome), etc.]",
+      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque saepe architecto maiores repudiandae amet perferendis repellendus, reprehenderit voluptas sequi.`,
       imageSrc: "/zarko/calming-mind-white.webp",
       link: "/features/feature-4",
     },
@@ -52,8 +50,7 @@ export default function SampleComponets() {
     {
       title: "Feature 6",
       description:
-        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-        "[Maybe something about how the DDM's Chan is both modern and deeply rooted in tradition? Adaptable. Inclusive. Useful.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       imageSrc: "/zarko/mahakasyapa.webp",
       link: "/features/feature-6",
     },
@@ -193,7 +190,7 @@ export default function SampleComponets() {
       </section>
       {/* <PersonaCarousel /> */}
       {/* <PersonaCarousel2 personas={PERSONAS} /> */}
-      <PersonaCarouselAceternity personas={PERSONAS} />
+      {/* <PersonaCarouselAceternity personas={PERSONAS} /> */}
     </>
   );
 }
