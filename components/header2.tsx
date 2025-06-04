@@ -74,6 +74,12 @@ export default function Header2() {
         {/* Desktop */}
         <nav className="hidden md:flex items-center gap-6">
           <Link
+            href="/coming-soon"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            Coming Soon
+          </Link>
+          <Link
             href="/faq"
             className="text-sm font-medium transition-colors hover:text-primary"
           >
@@ -161,6 +167,13 @@ export default function Header2() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
+              </Link>
+              <Link
+                href="/coming-soon"
+                className="text-sm font-medium transition-colors hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Coming Soon
               </Link>
               <Link
                 href="/sample-components"
